@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/turking"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/turking"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Turking"
+        tools:targetApi="31">
+        <activity
+            android:name=".kelimehard"
+            android:exported="false" />
+        <activity
+            android:name=".kelimemedium"
+            android:exported="false" />
+        <activity
+            android:name=".kelimeeasy"
+            android:exported="false" />
+        <activity
+            android:name=".Kelimeanasayfa"
+            android:exported="false" />
+        <activity
+            android:name=".RenklerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OyunSonuR"
+            android:exported="false" />
+        <activity
+            android:name=".OyunSonuM"
+            android:exported="false" />
+        <activity
+            android:name=".OyunSonuH"
+            android:exported="false" />
+        <activity
+            android:name=".MeyvelerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HayvanlarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Baslangic"
+            android:exported="false" />
+        <activity
+            android:name=".seviye2"
+            android:exported="false" />
+        <activity
+            android:name=".seviye3"
+            android:exported="false" />
+        <activity
+            android:name=".acilisekran_activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".noteekle_activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".anasayfa_activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".notgoster_activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".seviye1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
